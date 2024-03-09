@@ -1,0 +1,9 @@
+.category-container{
+    display: flex;
+    height: 5rem;
+    width: 98vw;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px 10px 10px 10px;
+
+}
