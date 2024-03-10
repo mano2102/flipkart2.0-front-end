@@ -34,7 +34,9 @@ const Header = () => {
             </Button>
           </div>
 
-          <div>Cart</div>
+          <div>
+            <button>Cart</button>
+          </div>
           <div>Become a Seller</div>
         </div>
       </header>
