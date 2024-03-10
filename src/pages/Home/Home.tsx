@@ -2,6 +2,8 @@ import React from 'react'
 import "./home.css"
 import Header from '../../components/Header/Header'
 import CategoriesDisplay from '../../components/CategoriesDisplay/CategoriesDisplay'
+import ProductDisplay from '../../components/ProductsDisplay/ProductDisplay'
+
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
             
            <Header/>
            <CategoriesDisplay/> 
+           <ProductDisplay/>
+         
         </div>
         
     </div>

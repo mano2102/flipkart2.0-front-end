@@ -1,5 +1,5 @@
 import { Image } from "@chakra-ui/image";
-import React from "react";
+
 import "../CategoriesDisplay/CategoryDisplay.css"
 import { Link } from "react-router-dom";
 const CategoriesDisplay = () => {

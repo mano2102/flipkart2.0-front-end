@@ -5,6 +5,7 @@ import { Input } from "@chakra-ui/input";
 import { Button } from "@chakra-ui/button";
 
 import Login from "../Login/Login";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [modelstate, setModelstate] = useState(false);
@@ -35,9 +36,14 @@ const Header = () => {
           </div>
 
           <div>
-            <button>Cart</button>
+            <Link to="/cart">
+
+            <Button>
+                
+                Cart</Button>
+            </Link>
           </div>
-          <div>Become a Seller</div>
+          <Link to="/seller">Become a Seller</Link >
         </div>
       </header>
       {modelstate && (
