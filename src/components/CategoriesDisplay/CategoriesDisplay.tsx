@@ -1,12 +1,12 @@
 import { Image } from "@chakra-ui/image";
 import React from "react";
-import "../CategoriesDisplay/CategoryDsiplay.css"
+import "../CategoriesDisplay/CategoryDisplay.css"
 import { Link } from "react-router-dom";
 const CategoriesDisplay = () => {
   return (
-    <div className="category-container">
-      <Link to="#">
+    <nav className="category-container">
 
+      <Link to="#">
       <div>
         <Image src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100"
         />
@@ -87,7 +87,7 @@ const CategoriesDisplay = () => {
       </div>
       </Link>
 
-    </div>
+    </nav>
   );
 };
 

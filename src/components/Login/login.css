@@ -1,0 +1,92 @@
+.login-wrapper{
+   height: 40rem;
+   width:60rem;
+   background-color: #1056e1;
+   /* border:1px solid yellow; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /* align-items: center; */
+   margin:none;
+   padding: none;
+   /* border-radius: 25px; */
+   /* box-shadow: inset 10px 10px 10px 10px ;
+    */
+  
+}
+.login-wrapper-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40rem;
+    /* border:1px solid red;
+     */
+  
+
+}
+.login-number{
+    width: 50%;
+    /* border:1px solid green;
+     */
+     background-color: #fafafa;
+     text-align: center;
+     /* border-radius: 25px; */
+   
+
+
+}
+
+.login-number form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.login-number form Input{
+    height: 60px;
+    width: 100%;
+    padding:20px;
+    margin-top:40px;
+    font-size: larger;
+    caret-color: #1056e1;
+    border:none;
+    border-bottom:2px solid #1056e1;
+    
+}
+.login-number form Button{
+    margin-top:40px;
+    background-color: #0c22e9;
+    color:#fafafa;
+}
+
+.login-number form Button:hover{
+    background-color:#8b94e2;
+}
+.login-number form h1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/* span{
+    color:red;
+    text-align: left;
+} */
+.login-number form .profile-pic{
+    height: 80px;
+    width:80px;
+    border-radius: 100%;
+    /* background-color:#000000; */
+}
+
+/* .login-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+} */
